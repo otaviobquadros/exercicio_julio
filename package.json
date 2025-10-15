@@ -1,0 +1,27 @@
+{
+  "name": "exercicio_julio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otaviobquadros/exercicio_julio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/otaviobquadros/exercicio_julio/issues"
+  },
+  "homepage": "https://github.com/otaviobquadros/exercicio_julio#readme",
+  "devDependencies": {
+    "@tsconfig/node22": "^22.0.2",
+    "ts-node": "^10.9.2"
+  }
+}
