@@ -7,7 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "ts-node src/index.ts",
     "build": "tsc"
-    
   },
   "repository": {
     "type": "git",
@@ -22,6 +21,10 @@
   "homepage": "https://github.com/otaviobquadros/exercicio_julio#readme",
   "devDependencies": {
     "@tsconfig/node22": "^22.0.2",
+    "@types/axios": "^0.9.36",
     "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "axios": "^1.12.2"
   }
 }
